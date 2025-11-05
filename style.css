@@ -1,0 +1,176 @@
+             
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+/* RESET : permet d'effacer le style par defaut impose par le navigateur*/  
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    font-size: 35px;
+     font-family: "DM Serif Text", serif;
+}
+
+/* CLASSES FONCTIONNELLES FLEX BOX */
+/* rendre flexible un parent = aligner ses enfants */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-items: center;
+}
+
+/*CLASSES DE DIAMANSIONS */
+
+.w-100{
+    width: 100%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-48{
+    width: 48%;
+}
+
+.w-33{
+    width: 33%;
+}
+
+.w-25{
+    width: 20%;
+}
+
+/*header*/
+
+.logo{
+    width: 100px;
+    margin: 10px;
+
+}
+
+header ul{
+    list-style: none;
+}
+
+header{
+    padding: 20px 64px;
+    background-color: #F4F0EC;
+    box-shadow:0px 5px 10px gray;
+}
+
+/*section hero*/
+
+.section-hero{
+    background-image: url(asset/Banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.section-hero div{
+    justify-content: flex-start;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 45px;
+     font-family: "DM Serif Text", serif;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+/*BOUTON*/
+
+.bouton{
+    background-color: #292F36;
+    border-radius: 20px;
+    color: black;
+    padding: 15px;
+    display: inline-block;
+}
+
+.bouton-prem{
+    font-size: 25px;
+}
+
+.bouton-second{
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.margin-top-100{
+    margin-top: 100px;
+}
+
+.section-hero div>p{
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+/* SECTION SERVICES */
+
+.card{
+    padding: 20px;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.card h3{
+    margin-bottom: 20px;
+}
+
+.card2{
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.img{
+    border-radius: 5px 140px;
+}
+
+.background{
+    background-color: #F4F0EC;
+    padding: 40px;
+}
+ 
+.brand{
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.background2{
+    background-color: #292F36;
+    color: white;
+    padding: 40px;
+}
